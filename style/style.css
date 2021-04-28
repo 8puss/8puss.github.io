@@ -29,6 +29,8 @@ ul {
 main {
     text-align: center;
     background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
@@ -44,6 +46,7 @@ header h1 {
 
 .about {
     padding: 2rem;
+    background-color: violet;
     display: flexbox;
 }
 
@@ -72,6 +75,7 @@ header h1 {
 
 .pages {
     padding: 2rem;
+    background-color: yellowgreen;
     display: flexbox;
 }
 
@@ -83,14 +87,18 @@ header h1 {
 
 .pages ul {
     margin: 1rem;
+    
 }
 
 .pages ul li {
+    display: inline-block;
     font-size: 1.6rem;
 }
 
 .redes {
     padding: 3rem;
+    background-color: rgb(253, 146, 23);
+    display: flexbox;
 }
 
 .redes h2 {
