@@ -47,6 +47,10 @@ header h1 {
 .about {
     padding: 2rem;
     background-color: violet;
+    display: flex;
+}
+
+.about-conteiner {
     display: flexbox;
 }
 
@@ -76,8 +80,12 @@ header h1 {
 .pages {
     padding: 2rem;
     background-color: yellowgreen;
+}
+
+.pages-conteiner {
     display: flexbox;
 }
+
 
 .pages h2 {
     font-size: 2.5rem;
@@ -97,7 +105,11 @@ header h1 {
 
 .redes {
     padding: 3rem;
+    width: auto;
     background-color: rgb(253, 146, 23);
+}
+
+.redes-conteiner {
     display: flexbox;
 }
 
