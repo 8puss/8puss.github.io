@@ -1,5 +1,12 @@
 ### Hi there 👋
 
+- 🌱 I’m currently learning front-end development, python for data science and IoT through Arduino and Raspberry Pi
+- 👯 I’m looking to collaborate on web development, IoT and digital art
+- 💬 Ask me about crypto, music and philosophy 
+- 📫 How to reach me: 
+    - rodrx20@gmail.com
+    - [TW](https://twitter.com/8pus_)
+    - [IG]()
 
 * [Main](https://transpoetico.github.io/static/index.html)
 
