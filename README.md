@@ -8,7 +8,10 @@
     - [TW](https://twitter.com/8pus_)
     - [IG]()
 
-* [Main](https://transpoetico.github.io/static/index.html)
+## Some projects
+
+* [Main landing page](https://8puss.github.io/static/index.html)
+* [DGRM](https://8puss.github.io/dgrm/static/index.html)
 
 <!--
 **transpoetico/transpoetico** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
