@@ -1,9 +1,18 @@
 @media (min-width: 768px) {
-   .about, .pages {
+   .main {
+       display: flex;
+   }
+
+    .about {
        width: 100%;
    }
 
+   .pages {
+       width: 100%;
+   }
+   
    .redes {
        width: 100%;
+       
    }
 }
