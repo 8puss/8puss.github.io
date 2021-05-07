@@ -151,6 +151,11 @@ header h1 {
     color: var(--primary-color);
 }
 
+.production-conteiner-graphic-img {
+    width: 30rem;
+    height: 15rem;
+}
+
 .redes {
     display: flex;
     flex-wrap: wrap;
