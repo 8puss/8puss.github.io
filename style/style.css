@@ -141,6 +141,11 @@ header h1 {
     color: var(--primary-color);
 }
 
+.production .production-conteiner .production-conteiner-audiovisual p {
+    font-size: 1.6rem;
+    color: var(--secundary-color);
+}
+
 .production .production-conteiner .production-conteiner-graphic {
     display: inline-block;
 }
