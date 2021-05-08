@@ -1,6 +1,7 @@
 @media (min-width: 768px) {
    .main {
        display: flex;
+       flex-wrap: wrap;
    }
 
     .about {
@@ -10,9 +11,16 @@
    .pages {
        width: 100%;
    }
+
+   .pages .pages-conteiner {
+    
+   }
    
+   .production {
+       width: 100%;
+   }
+
    .redes {
        width: 100%;
-       
    }
 }

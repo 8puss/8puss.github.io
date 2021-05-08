@@ -16,10 +16,13 @@ html {
 
 a:link {
     text-decoration: none;
+    color: var(--secundary-color);
 }
 
 a:hover {
     color: deeppink;
+    font-size: 2.5rem;
+    text-decoration: underline;
 }
 
 ul {
@@ -184,6 +187,7 @@ header h1 {
 }
 
 .redes ul li {
+    padding: 1.5rem;
     display: inline-block;
     font-size: 1.6rem;
 }
