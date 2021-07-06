@@ -115,6 +115,45 @@ ul {
     font-size: 2.5rem;
 }
 
+.pages-conteiner-text {
+    color: var(--secundary-color);
+    padding: .5rem;
+}
+
+.pages-conteiner-ul {
+    display: inline;
+    padding: .5rem;
+}
+
+.pages-conteiner-ul-item {
+    display:inline-block;
+    padding: 1rem;
+}
+
+.production-conteiner {
+    padding: 5rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;    
+}
+
+.production-conteiner-audiovisual {
+
+}
+
+.production-conteiner-audiovisual-h3 {
+    color: var(--primary-color);
+    font-size: 2.5rem;
+}
+
+.production-conteiner-audiovisual-text {
+    color: var(--secundary-color);
+    padding: .5rem;
+}
+
+.production-conteiner-audiovisual-graphic {
+}
+
 .redes-conteiner {
     padding: 5rem;
     justify-content: center;
@@ -125,6 +164,21 @@ ul {
 .redes-conteiner-h2 {
     font-size: 2.5rem;
     color: var(--primary-color);
+}
+
+.redes-conteiner-text {
+    color: var(--secundary-color);
+    padding: .5rem;
+}
+
+.redes-conteiner-ul {
+    display: inline;
+    padding: .5rem;
+}
+
+.redes-conteiner-ul-item {
+    display:inline-block;
+    padding: 1rem;
 }
 
 .footer-conteiner {
