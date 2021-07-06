@@ -1,9 +1,7 @@
 @media (min-width: 768px) {
    .about, .pages {
-       width: 50%;
    }
 
    .redes {
-       width: 100%;
    }
 }
