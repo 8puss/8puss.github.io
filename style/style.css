@@ -13,6 +13,7 @@
 html {
     font-size: 62.5%;
     background-color: rgb(15, 18, 22);
+    overflow: auto;
 }
 
 .header-conteiner {
@@ -172,13 +173,42 @@ ul {
 }
 
 .redes-conteiner-ul {
-    display: inline;
+    display: inline-block;
     padding: .5rem;
 }
 
-.redes-conteiner-ul-item {
-    display:inline-block;
-    padding: 1rem;
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.fa {
+    padding: 40px;
+    font-size: 1vw;
+    max-width: 40px;
+    max-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 1vw;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
 }
 
 .footer-conteiner {

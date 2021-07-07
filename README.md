@@ -9,7 +9,7 @@
 
 ## Some projects
 
-* [Main landing page](https://8puss.github.io/static/index.html)
+* [Main landing page](https://8puss.github.io/static/EN/englishversion.html)
 * [DGRM](https://8puss.github.io/dgrm/static/index.html)
 
 <!--
