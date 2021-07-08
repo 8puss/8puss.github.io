@@ -1,16 +1,15 @@
 ## Hi there 👋
 
-- 🌱 I’m currently learning front-end development, python for data science and IoT through Arduino and Raspberry Pi
+- 🌱 I’m currently learning web development, python for data science and machine learning
 - 👯 I’m looking to collaborate on web development, IoT and digital art
 - 💬 Ask me about crypto, music and philosophy 
 - 📫 How to reach me: 
     - rodrx20@gmail.com
     - [TW](https://twitter.com/8pus_)
 
-## Some projects
+## Web
 
 * [Main landing page](https://8puss.github.io/static/EN/englishversion.html)
-* [DGRM](https://8puss.github.io/dgrm/static/index.html)
 
 <!--
 **transpoetico/transpoetico** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
