@@ -141,9 +141,9 @@ ul {
     text-align: center;    
 }
 
-.production-conteiner-audiovisual {
-
-}
+/*.production-conteiner-audiovisual {
+    
+}*/
 
 .production-conteiner-audiovisual-h3 {
     color: var(--primary-color);
@@ -155,8 +155,9 @@ ul {
     padding: .5rem;
 }
 
-.production-conteiner-audiovisual-graphic {
-}
+/*.production-conteiner-audiovisual-graphic {
+
+}*/
 
 .redes-conteiner {
     padding: 3rem;
