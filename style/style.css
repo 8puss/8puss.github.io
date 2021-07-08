@@ -114,6 +114,14 @@ ul {
     padding: 1rem;
 }
 
+.pages-conteiner-repos-ul-item:hover {
+    padding: .3rem 1rem .3rem 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 2rem;
+}
+
+
 .pages-conteiner {
     padding: 5rem;
     margin: 0;
@@ -140,6 +148,13 @@ ul {
 .pages-conteiner-ul-item {
     display:inline-block;
     padding: 1rem;
+}
+
+.pages-conteiner-ul-item:hover {
+    padding: .3rem 1rem .3rem 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 2rem;
 }
 
 .production-conteiner {
@@ -230,4 +245,21 @@ ul {
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+.footer-conteiner-ul {
+    display: inline;
+    padding: .5rem;
+}
+
+.footer-conteiner-ul-item {
+    display: inline-block;
+    padding: 1rem;
+}
+
+.footer-conteiner-ul-item:hover {
+    padding: .3rem 1rem .3rem 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-size: 1.5rem;
 }
