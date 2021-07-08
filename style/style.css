@@ -65,6 +65,7 @@ ul {
 
 .about-conteiner {
     padding: 3rem;
+    margin: 0;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -107,6 +108,7 @@ ul {
 
 .pages-conteiner {
     padding: 5rem;
+    margin: 0;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -158,6 +160,7 @@ ul {
 
 .redes-conteiner {
     padding: 3rem;
+    margin: 0;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -179,6 +182,7 @@ ul {
 }
 
 .contenedor {
+    margin: 0;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }

@@ -1,7 +1,26 @@
 @media (min-width: 768px) {
-   .about, .pages {
+   .about-conteiner {
+      max-width: 600px;
+      margin-right: auto;
+      margin-left: auto;
    }
 
-   .redes {
+   .pages-conteiner {
+      max-width: 600px;
+      margin-right: auto;
+      margin-left: auto;
    }
+
+   .production-conteiner {
+      max-width: 600px;
+      margin-right: auto;
+      margin-left: auto;
+   }
+
+   .redes-conteiner {
+      max-width: 600px;
+      margin-right: auto;
+      margin-left: auto;
+   }
+   
 }
