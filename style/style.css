@@ -1,6 +1,6 @@
 :root {
     --primary-color: goldenrod;
-    --secundary-color: rgb(255, 232, 175);
+/*    --secundary-color: rgb(255, 232, 175);*/
     --header-size: 4rem;
     --font: 1.8rem;
 }
@@ -81,26 +81,26 @@ ul {
     color: var(--secundary-color);
 }
 
-.about-conteiner-repos {
+.pages-conteiner-repos {
     padding: 1.5rem;
 }
 
-.about-conteiner-repos-h3 {
+.pages-conteiner-repos-h3 {
     color: var(--primary-color);
     padding: .5rem;
 }
 
-.about-conteiner-repos-text {
+.pages-conteiner-repos-text {
     padding: .5rem;
     color: var(--secundary-color);
 }
 
-.about-conteiner-repos-ul {
+.pages-conteiner-repos-ul {
     display: inline;
     padding: .5rem;
 }
 
-.about-conteiner-repos-ul-item {
+.pages-conteiner-repos-ul-item {
     display:inline-block;
     padding: 1rem;
 }
@@ -157,7 +157,7 @@ ul {
 }
 
 .redes-conteiner {
-    padding: 5rem;
+    padding: 3rem;
     justify-content: center;
     align-items: center;
     text-align: center;
