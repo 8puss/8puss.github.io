@@ -37,6 +37,8 @@ nav {
 
 .header-conteiner-nav {
     padding: .5rem;
+    margin-right: auto;
+    margin-left: auto;
     font-size: var(--font);
     display: inline;
     position: relative;
@@ -72,9 +74,12 @@ ul {
     list-style-type: none
 }
 
+
 .about-conteiner {
     padding: 3rem;
-    margin: 0;
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -127,7 +132,9 @@ ul {
 
 .pages-conteiner {
     padding: 5rem;
-    margin: 0;
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -162,6 +169,9 @@ ul {
 
 .production-conteiner {
     padding: 5rem;
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
     justify-content: center;
     align-items: center;
     text-align: center;    
@@ -187,7 +197,9 @@ ul {
 
 .redes-conteiner {
     padding: 3rem;
-    margin: 0;
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -208,40 +220,19 @@ ul {
     padding: .5rem;
 }
 
+.redes .redes-conteiner .redes-conteiner-ul .contenedor a img {
+    width: 45px;
+    height: 45px;
+    padding: 10px;
+}
+
 .contenedor {
     margin: 0;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
 
-.fa {
-    padding: 40px;
-    font-size: 1vw;
-    max-width: 40px;
-    max-height: 40px;
-    text-align: center;
-    text-decoration: none;
-    margin: 1vw;
-    border-radius: 50%;
-}
 
-.fa:hover {
-    opacity: 0.7;
-}
-
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-}
-.fa-youtube {
-  background: #bb0000;
-  color: white;
-}
-
-.fa-instagram {
-  background: #125688;
-  color: white;
-}
 
 .footer-conteiner {
     padding: 5rem;
