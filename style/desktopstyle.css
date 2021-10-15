@@ -10,7 +10,7 @@
     }
 
     .bots {
-        width: 300px;
+        width: 400px;
         padding: 20px;
     }
 
@@ -26,6 +26,6 @@
 
     .pages-conteiner-repos {
         padding: 1.5rem;
-        width: 350px;
+        width: 400px;
     }
 }
