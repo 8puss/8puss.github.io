@@ -195,6 +195,10 @@ ul {
     font-size: 2rem;
 }
 
+.pages-conteiner-ul-item li h2 {
+    color: rgb(241, 189, 15);
+}
+
 
 .pages-conteiner {
     padding: 1rem;

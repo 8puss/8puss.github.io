@@ -9,6 +9,10 @@
         flex-direction: row;
     }
 
+    .header-conteiner-h2 h1 {
+        font-size: 21rem;
+    }
+
     .bots {
         width: 400px;
         padding: 20px;
