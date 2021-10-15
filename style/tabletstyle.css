@@ -1,24 +1,29 @@
 @media (min-width: 768px) {
    .about-conteiner {
-      max-width: 600px;
+      max-width: 400px;
       margin-right: auto;
       margin-left: auto;
    }
 
+   .header-conteiner-h2 {
+      font-size: 7rem;
+      color: var(--primary-color);
+   }
+
    .pages-conteiner {
-      max-width: 600px;
+      max-width: 400px;
       margin-right: auto;
       margin-left: auto;
    }
 
    .production-conteiner {
-      max-width: 600px;
+      max-width: 400px;
       margin-right: auto;
       margin-left: auto;
    }
 
    .redes-conteiner {
-      max-width: 600px;
+      max-width: 400px;
       margin-right: auto;
       margin-left: auto;
    }

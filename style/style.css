@@ -12,10 +12,11 @@
 
 html {
     font-size: 62.5%;
+    width: 100vw;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: rgb(32, 33, 36);
     background: linear-gradient(0deg, rgb(218, 165, 31, 0.2) 0%, rgba(218,165,31,0.2) 3%, rgba(34,34,37,1) 89%, rgba(33,33,36,1) 100%);
-    overflow: auto;
+    margin-left: 80px;
 }
 
 .header-conteiner {
@@ -27,7 +28,7 @@ html {
 }
 
 .header-conteiner-h2 {
-    font-size: 7rem;
+    font-size: 4rem;
     color: var(--primary-color);
 }
 
@@ -63,6 +64,8 @@ main {
     justify-content: center;
     align-items: center;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 a {
@@ -98,8 +101,71 @@ ul {
     color: var(--secundary-color);
 }
 
+
+.carousel {
+    overflow: scroll;
+    margin: 1rem;
+    padding: 3rem;
+    position: relative;
+}
+
+.carousel__container {
+    white-space: nowrap;
+    padding-bottom: 1rem;
+    margin-right: none;
+    padding-right: none; 
+    width: 50rem;
+}
+
+.carousel__item {
+    background-color: gainsboro;
+    width: 18rem;
+    height: 27rem;
+    border: 1px solid gainsboro;
+    border-radius: 20px;
+    margin-right: 10px;
+    overflow: hidden;
+    display: inline-block;
+    cursor: pointer;
+    transition: 450ms all;
+    transform-origin: center left;
+}
+
+.carousel__item:hover ~ .carousel__item {
+    transform: translate3d(5rem, 0, 0);
+}
+
+.carousel__container:hover .carousel__item {
+    opacity: 0.3;
+}
+
+.carousel__container:hover .carousel__item:hover {
+    transform: scale(1.2);
+    opacity: 1;
+}
+
+.carousel-item__img {
+    width: 18rem;
+    height: 35rem;
+    object-fit: cover;
+}
+
+.carousel-item__details {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%);
+    font-size: 10px;
+    opacity: 0;
+    transition: 450ms opacity;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
 .pages-conteiner-repos {
     padding: 1.5rem;
+    width: 350px;
 }
 
 .pages-conteiner-repos-h3 {
@@ -131,8 +197,8 @@ ul {
 
 
 .pages-conteiner {
-    padding: 5rem;
-    width: 400px;
+    padding: 1rem;
+    width: 100%;
     margin-right: auto;
     margin-left: auto;
     justify-content: center;
@@ -165,13 +231,23 @@ ul {
     margin-left: 1rem;
     margin-right: 1rem;
     font-size: 2rem;
+    cursor: pointer;
+}
+
+.bots {
+    width: 355px;
+    justify-content: center;
+    align-self: center;
+    margin 10px;
+}
+
+.pages-conteiner-ul-item h2 {
+    color: var(--primary-color);
 }
 
 .production-conteiner {
     padding: 5rem;
     width: 400px;
-    margin-right: auto;
-    margin-left: auto;
     justify-content: center;
     align-items: center;
     text-align: center;    
@@ -197,7 +273,7 @@ ul {
 
 .redes-conteiner {
     padding: 3rem;
-    width: 400px;
+    width: 100%;
     margin-right: auto;
     margin-left: auto;
     justify-content: center;
@@ -260,7 +336,7 @@ ul {
 
 /*tarjeta de presentación*/
 
-.card-container {
+.card-container {   
     width: 300px;
     height: 480px;
     background: rgb(241, 189, 15);

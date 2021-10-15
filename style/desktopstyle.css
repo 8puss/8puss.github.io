@@ -1,3 +1,31 @@
 @media (min-width: 1080px) {
 
+    html {
+        margin-left: 0;
+    }
+
+    main {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .bots {
+        width: 300px;
+        padding: 20px;
+    }
+
+    .production-conteiner {
+    width: 350px;
+    padding: 3rem;
+    }
+
+    .redes {
+        width: 300px;
+        margin-left: 30px;
+    }
+
+    .pages-conteiner-repos {
+        padding: 1.5rem;
+        width: 350px;
+    }
 }
