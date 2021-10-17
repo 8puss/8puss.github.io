@@ -360,3 +360,52 @@ ul {
     width: 100%;
     object-fit: contain;
 }
+
+.production-conteiner-audiovisual-graphic {
+    justify-content: center;
+    align-content: center;
+}
+
+.production-conteiner-audiovisual-graphic img {
+    width: 350;
+    height: 350px;
+    margin-top: 10px;
+    border-radius: 24px;
+}
+
+
+
+#img-description, #img-description-en {
+    margin: 5px;
+    padding: 5px;
+    color: var(--secundary-color);
+}
+
+
+main .production .production-conteiner .carousel {
+    overflow: visible;
+    margin: .2rem;
+    padding: 1rem;
+    position: relative;
+}
+
+
+main .production .production-conteiner .carousel .carousel__container .carousel__item {
+    background-color: gainsboro;
+    width: 35rem;
+    height: 35rem;
+    border: 1px solid gainsboro;
+    border-radius: 20px;
+    overflow: visible;
+    display: inline-block;
+    cursor: pointer;
+    transition: 650ms all;
+    transform-origin: center;
+    margin-right: 100px;
+}
+
+main .production .production-conteiner .carousel .carousel__container .carousel__item img {
+    width: 350;
+    height: 350px;
+    border-radius: 20px;
+}

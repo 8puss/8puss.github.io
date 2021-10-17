@@ -27,6 +27,10 @@ html {
       margin-left: 10px;
    }
 
+   main .production .production-conteiner .carousel .carousel__container .carousel__item {
+      margin-right: 150px;
+  }
+
    .redes-conteiner {
       width: 380px;
       margin-right: 0;
