@@ -5,12 +5,12 @@ import { About } from "../components/aboutComponent";
 import styled from "styled-components";
 
 const MainContainer = styled.main`
-font-size: 1.8rem;
-justify-content: center;
-align-items: center;
-text-align: center;
-display: flex;
-flex-direction: column;
+    font-size: 1.8rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
 `
 
 const App = () => {

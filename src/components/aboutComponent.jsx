@@ -22,10 +22,21 @@ const AboutConteinerh2 = styled.div`
 
 const AboutConteinerText = styled.div`
     padding: 2rem;
-    color: rgb(0,0,0);
+    color: rgb(255,255,255);
 ` 
 
-
+const CardContainer = styled.div`
+    width: 30rem;
+    height: 55rem;
+    background: rgb(241, 189, 15);
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+    box-shadow: whitesmoke 3px 5px 34px 2px;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+`
 
 
 const About = () => {
@@ -33,13 +44,13 @@ const About = () => {
         <section class="about">
             <AboutContainer>
                 <div class="item">
-                    <div class="card-container">
-                        <div class="card-container-img">
-                            <img src="../../assets/img/mm.jpg" alt="self-portrait" />
+                    <CardContainer>
+                        <div style={{"width": "100%", "object-fit": "contain"}}>
+                            <img src="https://avatars.githubusercontent.com/u/57158796?v=4" alt="self-portrait" />
                         </div>
                         <p>RDRX</p>
                         <p>Computer systems engineering student</p>
-                    </div>
+                    </CardContainer>
                 </div>
                 <AboutConteinerh2>
                     <h2>
