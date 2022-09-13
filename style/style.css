@@ -246,7 +246,7 @@ ul {
     width: 355px;
     justify-content: center;
     align-self: center;
-    margin 10px;
+    margin: 10px;
 }
 
 .pages-conteiner-ul-item h2 {
@@ -281,7 +281,7 @@ ul {
 
 .redes-conteiner {
     padding: 1.5rem;
-    width:400px%;
+    width:400px;
     margin-right: auto;
     margin-left: auto;
     justify-content: center;
